@@ -1,0 +1,19 @@
+{
+  "name": "dental-clinic-system",
+  "version": "2.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@vercel/functions": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.15"
+  }
+}
